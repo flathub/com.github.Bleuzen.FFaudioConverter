@@ -3,8 +3,6 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "5.11",
     "sdk": "org.kde.Sdk",
-    "rename-icon": "ffaudioconverter",
-    "rename-desktop-file": "ffaudioconverter.desktop",
     "rename-appdata-file": "FFaudioConverter.appdata.xml",
     "finish-args": [
         "--socket=wayland",
@@ -65,13 +63,9 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.10.0/FFaudioConverter-0.10.0-flatpak-test2.tar.xz",
-                    "sha256": "79acce1589d6fe1f6f268b0f129514d4571eb1b95c76f4a0b5203466ea28e87c",
+                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.10.1/FFaudioConverter-0.10.1.tar.xz",
+                    "sha256": "4eb919d9a797f85f2b936cc172c3cc32519eec7e10b20240dd9ab5cf790fd18e",
                     "strip-components": 0
-                },
-                {
-                    "type": "file",
-                    "path": "com.github.Bleuzen.FFaudioConverter.appdata.xml"
                 }
             ]
         }
