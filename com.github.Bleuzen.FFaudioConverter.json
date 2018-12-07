@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.10.1/FFaudioConverter-0.10.1.tar.xz",
-                    "sha256": "4eb919d9a797f85f2b936cc172c3cc32519eec7e10b20240dd9ab5cf790fd18e",
+                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.10.2/FFaudioConverter-0.10.2.tar.xz",
+                    "sha256": "3466c538e69e1cc2490520794c53e8c0507a425d7dca2089a4ea10b6c23dd28e",
                     "strip-components": 0
                 }
             ]
