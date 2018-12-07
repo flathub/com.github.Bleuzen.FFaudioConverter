@@ -3,7 +3,6 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "5.11",
     "sdk": "org.kde.Sdk",
-    "rename-appdata-file": "FFaudioConverter.appdata.xml",
     "finish-args": [
         "--socket=wayland",
         "--socket=x11",
@@ -57,9 +56,6 @@
         {
             "name": "FFaudioConverter",
             "buildsystem": "qmake",
-            "post-install": [
-                "install -Dm644 com.github.Bleuzen.FFaudioConverter.appdata.xml /app/share/metainfo/com.github.Bleuzen.FFaudioConverter.appdata.xml"
-            ],
             "sources": [
                 {
                     "type": "archive",
