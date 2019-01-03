@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.Bleuzen.FFaudioConverter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.11",
+    "runtime-version": "5.12",
     "sdk": "org.kde.Sdk",
     "command": "ffaudioconverter",
     "finish-args": [
@@ -12,24 +12,7 @@
         "--filesystem=host"
     ],
     "modules": [
-        {
-            "name": "libmp3lame",
-            "config-opts": ["--enable-shared",
-                            "--enable-nasm",
-                            "--bindir=/app/bin"],
-            "cleanup": [
-                "/share/doc",
-                "/share/man",
-                "/include"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://downloads.sourceforge.net/lame/lame-3.100.tar.gz",
-                    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
-                }
-            ]
-        },
+        "lame/lame-3.100.json",
         {
             "name": "ffmpeg",
             "config-opts": [
