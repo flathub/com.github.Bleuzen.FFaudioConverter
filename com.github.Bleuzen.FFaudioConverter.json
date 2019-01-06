@@ -59,11 +59,14 @@
         {
             "name": "FFaudioConverter",
             "buildsystem": "qmake",
+            "config-opts": [
+                "CONFIG+=release"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.20/FFaudioConverter-0.20.tar.xz",
-                    "sha256": "11c9aa56fcb5d5046bdbdd70c5997a3b500679e07615e1946e88b08b097ab663",
+                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.20.1/FFaudioConverter-0.20.1.tar.xz",
+                    "sha256": "d3bffe0bbc738999d6a7ab5d46b7816dac0573b3b4d635d87bc2968dc822f9d6",
                     "strip-components": 0
                 }
             ]
