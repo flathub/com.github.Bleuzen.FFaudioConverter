@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.Bleuzen.FFaudioConverter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.11",
+    "runtime-version": "5.12",
     "sdk": "org.kde.Sdk",
     "command": "ffaudioconverter",
     "finish-args": [
@@ -34,6 +34,7 @@
         {
             "name": "ffmpeg",
             "config-opts": [
+                "--enable-rpath",
                 "--enable-gpl",
                 "--disable-static",
                 "--enable-shared",
