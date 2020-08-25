@@ -51,8 +51,8 @@
             "sources": [
                 {
                 "type": "archive",
-                "url": "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz",
-                "sha256": "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
+                "url": "https://ffmpeg.org/releases/ffmpeg-4.3.1.tar.xz",
+                "sha256": "ad009240d46e307b4e03a213a0f49c11b650e445b1f8be0dda2a9212b34d2ffb"
                 }
             ]
         },
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.28/FFaudioConverter-0.28-src.tar.xz",
-                    "sha256": "58fa8b95f72149b1f07c7695311401613d0485c7b6f445e3bc1bf5cb5513b693",
+                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.29/FFaudioConverter-0.29-src.tar.xz",
+                    "sha256": "d2fb3a575f338a9d6fe62269c4be4cb913377ae3dbdb463a9613f03f8d2ce9cd",
                     "strip-components": 0
                 }
             ]
