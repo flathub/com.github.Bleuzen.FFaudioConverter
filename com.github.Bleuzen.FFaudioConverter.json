@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.Bleuzen.FFaudioConverter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
     "command": "ffaudioconverter",
     "finish-args": [
