@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.Bleuzen.FFaudioConverter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "ffaudioconverter",
     "finish-args": [
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-5.1.1.tar.xz",
-                    "sha256": "95bf3ff8c496511e71e958fb249e663c8c9c3de583c5bebc0f5a9745abbc0435"
+                    "url": "https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz",
+                    "sha256": "8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968"
                 }
             ]
         },
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.31.0/FFaudioConverter-0.31.0-src.tar.xz",
-                    "sha256": "bcdbf91d83b8d78c31a3a1614da20e7461daa349511a72673407d17613c32e11",
+                    "url": "https://github.com/Bleuzen/FFaudioConverter/releases/download/v0.32.0/FFaudioConverter-0.32.0-src.tar.xz",
+                    "sha256": "79011f842747734c22dec367d0e719b4a63015c86bcd4e4507dc13f10298fde6",
                     "strip-components": 0
                 }
             ]
