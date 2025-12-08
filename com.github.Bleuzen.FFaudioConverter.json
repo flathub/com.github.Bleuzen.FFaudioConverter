@@ -21,7 +21,9 @@
                 "-DCMAKE_BUILD_TYPE=Release"
             ],
             "cleanup": [
-                "/include"
+                "/include",
+                "/lib/pkgconfig",
+                "/share/doc"
             ],
             "sources": [
                 {
@@ -47,7 +49,9 @@
                 "--enable-libsoxr"
             ],
             "cleanup": [
-                "/share/ffmpeg/examples"
+                "/include",
+                "/lib/pkgconfig",
+                "/share/ffmpeg"
             ],
             "sources": [
                 {
