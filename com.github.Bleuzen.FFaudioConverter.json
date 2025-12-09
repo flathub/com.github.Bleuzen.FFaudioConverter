@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.Bleuzen.FFaudioConverter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "ffaudioconverter",
     "finish-args": [
@@ -16,11 +16,14 @@
             "name": "soxr",
             "buildsystem": "cmake-ninja",
             "config-opts": [
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
                 "-DBUILD_TESTS=no",
                 "-DCMAKE_BUILD_TYPE=Release"
             ],
             "cleanup": [
-                "/include"
+                "/include",
+                "/lib/pkgconfig",
+                "/share/doc"
             ],
             "sources": [
                 {
@@ -46,13 +49,15 @@
                 "--enable-libsoxr"
             ],
             "cleanup": [
-                "/share/ffmpeg/examples"
+                "/include",
+                "/lib/pkgconfig",
+                "/share/ffmpeg"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-7.0.2.tar.xz",
-                    "sha256": "8646515b638a3ad303e23af6a3587734447cb8fc0a0c064ecdb8e95c4fd8b389"
+                    "url": "https://ffmpeg.org/releases/ffmpeg-8.0.1.tar.xz",
+                    "sha256": "05ee0b03119b45c0bdb4df654b96802e909e0a752f72e4fe3794f487229e5a41"
                 }
             ]
         },
