@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-8.1.tar.xz",
-                    "sha256": "b072aed6871998cce9b36e7774033105ca29e33632be5b6347f3206898e0756a"
+                    "url": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+                    "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e"
                 }
             ]
         },
